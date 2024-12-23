@@ -1,8 +1,3 @@
-# BlockchainSecurityScanne
-
-It appears that only the header is present in the current `README.md` file. You can update the `README.md` file in your repository with the refined version provided above. Here’s the exact content you can use:
-
-```markdown
 # BlockchainSecurityScanner
 
 This repository hosts the development of an advanced blockchain security scanner designed to identify and analyze vulnerabilities in smart contracts, with a particular focus on those written in Vyper. Our tool equips developers and security researchers with critical insights into the security posture of their smart contracts, enabling proactive risk mitigation and the creation of more robust blockchain applications.
@@ -108,4 +103,3 @@ This project is licensed under the MIT License. See the LICENSE file for details
 ## Disclaimer
 
 This tool is intended for educational and research purposes only. It should not be used for malicious activities. The authors are not responsible for any misuse of this tool.
-```
