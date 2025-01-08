@@ -1,9 +1,15 @@
 # BlockchainSecurityScanner
 
-[![Build Status](https://github.com/Chemically-Motivated-Solutions/NLPToolkit/actions/workflows/ci.yml/badge.svg)](https://github.com/Chemically-Motivated-Solutions/NLPToolkit/actions)
-[![Security Status](https://github.com/Chemically-Motivated-Solutions/NLPToolkit/actions/workflows/security.yml/badge.svg)](https://github.com/Chemically-Motivated-Solutions/NLPToolkit/actions)
-[![Dependabot Status](https://img.shields.io/badge/dependabot-active-brightgreen.svg)](https://github.com/Chemically-Motivated-Solutions/NLPToolkit/network/updates)
+![Build Status](https://github.com/Chemically-Motivated-Solutions/BlockchainSecurityScanner/actions/workflows/ci.yml/badge.svg)
+![Security Status](https://github.com/Chemically-Motivated-Solutions/BlockchainSecurityScanner/actions/workflows/security.yml/badge.svg)
+![Dependabot Status](https://img.shields.io/badge/dependabot-active-brightgreen.svg)
+![License](https://img.shields.io/github/license/Chemically-Motivated-Solutions/BlockchainSecurityScanner)
+![Version](https://img.shields.io/github/v/release/Chemically-Motivated-Solutions/BlockchainSecurityScanner)
+![Issues](https://img.shields.io/github/issues/Chemically-Motivated-Solutions/BlockchainSecurityScanner)
+![Forks](https://img.shields.io/github/forks/Chemically-Motivated-Solutions/BlockchainSecurityScanner)
+![Stars](https://img.shields.io/github/stars/Chemically-Motivated-Solutions/BlockchainSecurityScanner)
 
+...
 This repository hosts the development of an advanced blockchain security scanner designed to identify and analyze vulnerabilities in smart contracts, with a particular focus on those written in Vyper. Our tool equips developers and security researchers with critical insights into the security posture of their smart contracts, enabling proactive risk mitigation and the creation of more robust blockchain applications.
 
 ## Vision Statement
