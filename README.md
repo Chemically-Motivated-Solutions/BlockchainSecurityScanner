@@ -1,5 +1,9 @@
 # BlockchainSecurityScanner
 
+[![Build Status](https://github.com/Chemically-Motivated-Solutions/NLPToolkit/actions/workflows/ci.yml/badge.svg)](https://github.com/Chemically-Motivated-Solutions/NLPToolkit/actions)
+[![Security Status](https://github.com/Chemically-Motivated-Solutions/NLPToolkit/actions/workflows/security.yml/badge.svg)](https://github.com/Chemically-Motivated-Solutions/NLPToolkit/actions)
+[![Dependabot Status](https://img.shields.io/badge/dependabot-active-brightgreen.svg)](https://github.com/Chemically-Motivated-Solutions/NLPToolkit/network/updates)
+
 This repository hosts the development of an advanced blockchain security scanner designed to identify and analyze vulnerabilities in smart contracts, with a particular focus on those written in Vyper. Our tool equips developers and security researchers with critical insights into the security posture of their smart contracts, enabling proactive risk mitigation and the creation of more robust blockchain applications.
 
 ## Vision Statement
