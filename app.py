@@ -5,6 +5,7 @@ import logging
 logging.basicConfig(level=logging.INFO, format='%(asctime)s - %(levelname)s - %(message)s')
 logger = logging.getLogger(__name__)
 from flask import Flask, render_template, request, redirect, url_for, flash
+from urllib.parse import urlparse
 import web3
 from web3 import Web3
 from extensions import db
@@ -362,7 +363,11 @@ def analyze():
         
         if 'error' in scan_result:
             flash(scan_result['error'], 'error')
-            return redirect(request.url)
+            target_url = request.url.replace('\\', '')
+            parsed_url = urlparse(target_url)
+            if not parsed_url.netloc and not parsed_url.scheme:
+                return redirect(target_url)
+            return redirect(url_for('index'))
             
         # Store results
         contract = Contract(
